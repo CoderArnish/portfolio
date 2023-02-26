@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #659dbd;
+    width: 240px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 20px;
+    height: 94vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /*background-color: orange;*/
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /*background-color: pink;*/
+    width: 78vw;
+    height: 55vh;
+    margin: 123px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    width: 50vh;
+    height: 55vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.moreabout{
+    font-size: 19px;
+    margin-top: 3px;;
+    font-family: 'Poppins', sans-serif;
+}
+.buttons{
+    margin: 8px 0px;
+}
+.buttons button{
+    font-size: 20px;
+    background-color: black;
+    color: white    ;
+    padding:5px 9px;
+    border-radius: 22px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}

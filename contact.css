@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #659dbd;
+    width: 240px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 20px;
+    height: 94vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display:flex;
+}
+.main{
+    background-color: pink;
+    width: 90vw;
+    height: 100vh;
+    font-size: 40px;
+    padding: 30px;
+}
+.contactfrom{
+    box-sizing: 20px;
+}
