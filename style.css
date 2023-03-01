@@ -6,25 +6,36 @@
 }
 .sidebar{
     background-color: #659dbd;
-    width: 240px;
-    height: 100vh;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
-.sidebar nav{
-    padding: 20px;
-    height: 94vh;
+.sidebar nav{   
 }
 .sidebar nav li{
     list-style: none;
     font-size: 30px;
-    padding: 33px 0;
+    padding:0;
+    
 }
 .sidebar nav li a{
     text-decoration: none;
     color: white;
+    display: block; 
+    padding: 30px;
+}
+.sidebar nav li a.active{
+    background-color: rgb(85, 239, 85);
+    color: white;
+}
+.sidebar nav li a:hover:not(.active){
+    background-color: #263f4e;
+    color: black;
 }
 .main{
     /*background-color: orange;*/
-    width: 90vw;
+    margin-left: 25%;
     height: 100vh;
 }
 .container{
@@ -80,4 +91,18 @@
 .buttons button:hover{
     background-color: white;
     color: black;
+}
+
+/* contact page css from here*/
+
+.contactform{
+    margin: 5%;
+    font-size: 30px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    padding: 7px 3px;
+    background-color: rgb(255, 255, 255);
+
 }
