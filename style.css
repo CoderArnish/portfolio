@@ -40,11 +40,20 @@
     font-size: 36px;
     margin-left: 50px;
 }
+.menu{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    transition: margin-right .75s;
+}
 .main{
     /*background-color: orange;*/
     width: 100%;
     margin-left: 0;
     height: 100%;
+    transition: margin-left .5s;
 }
 .container{
     display:flex;

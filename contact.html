@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="portfolio.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div id="sidebar"class="sidebar">
             <nav>
                 <ul>
+                    <li><a href="javascript:void(0)" class="closebutton" onclick="closenav()">&times;</a>
+                    </li>
                     <li><a href="/portfolio.html">Home</a></li>
                     <li><a href="/achievements.html">Achievements</a></li>
                     <li><a href="/project.html">Projects</a></li>
@@ -22,7 +25,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="main">
+        <div id="main" class="main">
+            <span id="menu" class="menu" onclick="opennav();">&#9776;</span>
             <div class="contactform">
                 <form>
                     <div class="mb-3">
