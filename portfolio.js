@@ -10,8 +10,8 @@ function closenav(){
     document.getElementById("menu").style.backgroundColor=("white");
 }
 function nav(){
-    var x = document.getElementById("sidebar").style.width;
-    if(x==0){
+    var x = document.getElementById("sidebar");
+    if(x.style.width==0){
         opennav();
     }
     else{
