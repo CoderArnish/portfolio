@@ -6,16 +6,19 @@
 }
 .sidebar{
     background-color: #659dbd;
-    width: 0;
+    width: 0px;
     height: 100%;
     position: fixed;
     overflow: auto;
     transition: 0.75s;
 }
+.sidebar nav{
+    margin-top: 60px;
+}
 .sidebar nav li{
     list-style: none;
     font-size: 30px;
-    padding:0;
+    padding:0px;
     
 }
 .sidebar nav li a{
@@ -23,7 +26,10 @@
     color: white;
     display: block; 
     transition: 0.3s;
-    padding: 30px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
 }
 .sidebar nav li a.active{
     background-color: rgb(85, 239, 85);
@@ -36,21 +42,24 @@
 .sidebar .closebutton{
     position: absolute;
     top: 0;
-    right: 16%;
+    padding: 10px;
+    /*right: 16%;*/
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .menu{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
     padding: 0;
+    margin-top: 0px;
     cursor: pointer;
     background-color: white;
-    transition: margin-right         .75s;
+    transition: margin-right .75s;
 }
 .main{
     /*background-color: orange;*/
     width: 100%;
+    padding: 0px;
     margin-left: 0;
     height: 100%;
     transition: margin-left .5s;
